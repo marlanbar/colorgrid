@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
+<body onload="draw();">
 <input type="file" id="file-input" />
 <h3>Contents of the file:</h3>
 <pre id="file-content"></pre>
+<script type="text/javascript" src="draw.js"></script>
 <script type="text/javascript" src="fileReader.js"></script>
+<aside>
+<canvas id="canvas" width="200" height="150"></canvas>	
+</aside>
+</body>
 </html>
